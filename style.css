@@ -478,12 +478,6 @@ nav .nav-left .fas {
   background-size: cover;
 }
 
-@media (max-width: 600px) {
-  .section-5 .container-fluid .bg-fixed {
-    background-size: contain;
-  }
-}
-
 .section-5 .container-fluid .bg-fixed .outline h1 {
   background-color: rgba(0, 80, 151, 0.61) !important;
   color: white;
@@ -794,12 +788,6 @@ nav .nav-left .fas {
   background-position: 0, -200px;
   background-size: cover;
   min-height: 30vh;
-}
-
-@media (max-width: 600px) {
-  .section-8 .container-fluid .bg-fixed {
-    background-size: contain;
-  }
 }
 
 .section-8 .container-fluid .bg-fixed .outline h1 {
