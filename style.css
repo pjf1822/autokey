@@ -790,6 +790,12 @@ nav .nav-left .fas {
   min-height: 30vh;
 }
 
+@media (max-width: 600px) {
+  .section-8 .container-fluid .bg-fixed {
+    background-attachment: scroll;
+  }
+}
+
 .section-8 .container-fluid .bg-fixed .outline h1 {
   background-color: #f79a0ee5;
   color: black;
