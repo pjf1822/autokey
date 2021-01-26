@@ -478,6 +478,12 @@ nav .nav-left .fas {
   background-size: cover;
 }
 
+@media (max-width: 600px) {
+  .section-5 .container-fluid .bg-fixed {
+    background-attachment: scroll;
+  }
+}
+
 .section-5 .container-fluid .bg-fixed .outline h1 {
   background-color: rgba(0, 80, 151, 0.61) !important;
   color: white;

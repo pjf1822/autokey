@@ -420,6 +420,7 @@ nav{
                   background-size: cover;
 
                   @media(max-width:600px){
+                    background-attachment: scroll;
                 }
 
                   .outline{
