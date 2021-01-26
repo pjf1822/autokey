@@ -88,15 +88,33 @@ nav .nav-left .fas {
   white-space: nowrap;
 }
 
+@media (max-width: 700px) {
+  .section-1 .carousel .carousel-inner .carousel-item .text-carousel h1 {
+    font-size: 1.3rem;
+  }
+}
+
 .section-1 .carousel .carousel-inner .carousel-item .text-carousel h5 {
   font-size: 24px;
   font-size: clamp(0.5rem, 3vw, 1.4rem);
   text-align: center;
 }
 
+@media (max-width: 700px) {
+  .section-1 .carousel .carousel-inner .carousel-item .text-carousel h5 {
+    font-size: .5rem;
+  }
+}
+
 .section-1 .carousel .carousel-inner .carousel-item .text-carousel h3 {
   font-size: clamp(0.5rem, 3vw, 1.4rem);
   color: #ffc33b;
+}
+
+@media (max-width: 700px) {
+  .section-1 .carousel .carousel-inner .carousel-item .text-carousel h3 {
+    font-size: .5rem;
+  }
 }
 
 .section-1 .carousel .carousel-control-prev .icon i, .section-1 .carousel .carousel-control-next .icon i {
@@ -459,6 +477,12 @@ nav .nav-left .fas {
   background-size: cover;
 }
 
+@media (max-width: 600px) {
+  .section-5 .container-fluid .bg-fixed {
+    background-size: contain;
+  }
+}
+
 .section-5 .container-fluid .bg-fixed .outline h1 {
   background-color: rgba(0, 80, 151, 0.61) !important;
   color: white;
@@ -769,6 +793,12 @@ nav .nav-left .fas {
   background-position: 0, -200px;
   background-size: cover;
   min-height: 30vh;
+}
+
+@media (max-width: 600px) {
+  .section-8 .container-fluid .bg-fixed {
+    background-size: contain;
+  }
 }
 
 .section-8 .container-fluid .bg-fixed .outline h1 {

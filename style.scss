@@ -90,6 +90,10 @@ nav{
                                 font-size:  clamp(1.3rem,5vw ,3.3rem);
                                 font-weight: 800;
                                 white-space: nowrap;
+
+                                @media(max-width: 700px){
+                                    font-size: 1.3rem;
+                                }
                               
                             }
 
@@ -98,12 +102,20 @@ nav{
                                 font-size:  clamp(.5rem,3vw ,1.4rem);
                                 text-align: center;
 
+                                @media(max-width: 700px){
+                                    font-size: .5rem;
+                                }
+
                             }
 
                             h3{
                                 font-size:  clamp(.5rem,3vw ,1.4rem);
 
                                 color: rgb(255, 195, 59);
+
+                                @media(max-width: 700px){
+                                    font-size: .5rem;
+                                }
                              
                                 
                             }
@@ -405,6 +417,10 @@ nav{
                   background-repeat: no-repeat;
                   background-position: 0, -200px;
                   background-size: cover;
+
+                  @media(max-width:600px){
+                    background-size: contain;
+                }
 
                   .outline{
                       h1{
@@ -739,6 +755,10 @@ nav{
                 background-position: 0, -200px;
                 background-size: cover;
                 min-height: 30vh;
+
+                @media(max-width:600px){
+                    background-size: contain;
+                }
 
                 .outline{ 
                     
