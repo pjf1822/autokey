@@ -5736,7 +5736,7 @@ textarea.form-control-lg {
   bottom: 0;
   z-index: 1;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   width: 15%;
   color: #fff;
@@ -5753,7 +5753,7 @@ textarea.form-control-lg {
   bottom: 0;
   z-index: 1;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
   width: 15%;
   color: #fff;
@@ -5762,8 +5762,27 @@ textarea.form-control-lg {
   transition: opacity 0.15s ease;
   padding-right: 2rem;
   padding-bottom: .5rem;
-
 }
+
+@media(max-width: 900px){
+  .carousel-control-next{
+    align-items: flex-end;
+    width: 10%;
+    padding-bottom: .2rem;
+
+  }
+}
+
+@media(max-width: 900px){
+  .carousel-control-prev{
+    align-items: flex-end;
+    width: 10%;
+    padding-bottom: .2rem;
+
+  }
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
 .carousel-control-next {
