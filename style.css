@@ -80,6 +80,7 @@ nav .nav-left .fas {
           align-items: center;
   height: 100%;
   width: 55%;
+  padding-left: .9rem;
 }
 
 .section-1 .carousel .carousel-inner .carousel-item .text-carousel h1 {
