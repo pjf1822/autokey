@@ -105,6 +105,12 @@ nav .nav-left .fas {
   text-shadow: 3px 1px 5px black;
 }
 
+@media (max-width: 600px) {
+  .section-1 .carousel .carousel-control-prev .icon i, .section-1 .carousel .carousel-control-next .icon i {
+    font-size: 25px;
+  }
+}
+
 .section-2 {
   background: #1d2127;
 }
@@ -904,8 +910,17 @@ nav .nav-left .fas {
   color: white;
 }
 
+.section-10 .container-fluid .my-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row {
+  .section-10 .container-fluid .my-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -917,46 +932,53 @@ nav .nav-left .fas {
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 {
+  .section-10 .container-fluid .my-row .columnthreedude {
     width: 100% !important;
     text-align: center;
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 h2 {
+.section-10 .container-fluid .my-row .columnthreedude h2 {
   font-weight: 200;
   font-size: 23px;
   padding-bottom: 1rem;
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 h2 {
+  .section-10 .container-fluid .my-row .columnthreedude h2 {
     padding-top: 2.3rem;
     padding-bottom: .3rem;
   }
 }
 
-.section-10 .container-fluid .row .col-md-3.row-tree p {
+.section-10 .container-fluid .my-row .columnthreedude.row-tree p {
   line-height: 1.2;
   font-size: 14px;
 }
 
-.section-10 .container-fluid .row .col-md-3.row-tree p:nth-child(3) {
+.section-10 .container-fluid .my-row .columnthreedude.row-tree p:nth-child(3) {
   color: #777777;
 }
 
-.section-10 .container-fluid .row .col-md-3 .well form {
+.section-10 .container-fluid .my-row .columnthreedude .well form {
   border: soldi 1px white;
 }
 
-.section-10 .container-fluid .row .col-md-3 .well form .input-group {
+.section-10 .container-fluid .my-row .columnthreedude .well form .input-group {
   margin: 20px auto;
   width: 100%;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-@media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 .well form .input-group {
+@media (max-width: 850px) {
+  .section-10 .container-fluid .my-row .columnthreedude .well form .input-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -973,28 +995,28 @@ nav .nav-left .fas {
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 .well form .input-group input {
+.section-10 .container-fluid .my-row .columnthreedude .well form .input-group input {
   border-radius: 3px !important;
   text-decoration: none;
   background-color: white !important;
   margin-bottom: 1rem;
 }
 
-.section-10 .container-fluid .row .col-md-3 .well form .input-group button {
+.section-10 .container-fluid .my-row .columnthreedude .well form .input-group button {
   border-radius: 3px 3px 3px 3px !important;
   outline: none;
   border: none;
   background-color: white;
 }
 
-.section-10 .container-fluid .row .col-md-3 .address {
+.section-10 .container-fluid .my-row .columnthreedude .address {
   line-height: 1.8;
   color: #777777;
   font-size: 13px;
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 .address {
+  .section-10 .container-fluid .my-row .columnthreedude .address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1011,7 +1033,7 @@ nav .nav-left .fas {
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 .address .address-top {
+.section-10 .container-fluid .my-row .columnthreedude .address .address-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1020,22 +1042,22 @@ nav .nav-left .fas {
           align-items: center;
 }
 
-.section-10 .container-fluid .row .col-md-3 .address .address-top i {
+.section-10 .container-fluid .my-row .columnthreedude .address .address-top i {
   padding-right: .6rem;
 }
 
-.section-10 .container-fluid .row .col-md-3 .address .address-top p {
+.section-10 .container-fluid .my-row .columnthreedude .address .address-top p {
   margin-bottom: 0;
 }
 
-.section-10 .container-fluid .row .col-md-3 .phone {
+.section-10 .container-fluid .my-row .columnthreedude .phone {
   line-height: 1.8;
   color: #777777;
   font-size: 13px;
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 .phone {
+  .section-10 .container-fluid .my-row .columnthreedude .phone {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1052,7 +1074,7 @@ nav .nav-left .fas {
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 .phone .phone-top {
+.section-10 .container-fluid .my-row .columnthreedude .phone .phone-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1061,21 +1083,21 @@ nav .nav-left .fas {
           align-items: center;
 }
 
-.section-10 .container-fluid .row .col-md-3 .phone .phone-top i {
+.section-10 .container-fluid .my-row .columnthreedude .phone .phone-top i {
   padding-right: .6rem;
 }
 
-.section-10 .container-fluid .row .col-md-3 .phone .phone-top p {
+.section-10 .container-fluid .my-row .columnthreedude .phone .phone-top p {
   margin-bottom: 0;
 }
 
-.section-10 .container-fluid .row .col-md-3 .email {
+.section-10 .container-fluid .my-row .columnthreedude .email {
   line-height: 1.8;
   font-size: 15px;
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 .email {
+  .section-10 .container-fluid .my-row .columnthreedude .email {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1092,7 +1114,7 @@ nav .nav-left .fas {
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 .email .email-top {
+.section-10 .container-fluid .my-row .columnthreedude .email .email-top {
   color: #777777;
   font-size: 13px;
   display: -webkit-box;
@@ -1103,33 +1125,33 @@ nav .nav-left .fas {
           align-items: center;
 }
 
-.section-10 .container-fluid .row .col-md-3 .email .email-top i {
+.section-10 .container-fluid .my-row .columnthreedude .email .email-top i {
   padding-right: .6rem;
 }
 
-.section-10 .container-fluid .row .col-md-3 .email .email-top p {
+.section-10 .container-fluid .my-row .columnthreedude .email .email-top p {
   margin-bottom: 0;
 }
 
-.section-10 .container-fluid .row .col-md-3 ul {
+.section-10 .container-fluid .my-row .columnthreedude ul {
   padding-left: 0;
   list-style: none;
 }
 
-.section-10 .container-fluid .row .col-md-3 ul li {
+.section-10 .container-fluid .my-row .columnthreedude ul li {
   font-size: 15px;
   font-weight: 500;
   line-height: 2;
 }
 
-.section-10 .container-fluid .row .col-md-3 .social-stuff {
+.section-10 .container-fluid .my-row .columnthreedude .social-stuff {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 800px) {
-  .section-10 .container-fluid .row .col-md-3 .social-stuff {
+  .section-10 .container-fluid .my-row .columnthreedude .social-stuff {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1142,7 +1164,7 @@ nav .nav-left .fas {
   }
 }
 
-.section-10 .container-fluid .row .col-md-3 .social-stuff .social-icon {
+.section-10 .container-fluid .my-row .columnthreedude .social-stuff .social-icon {
   background-color: #9e9e9e;
   margin: .4rem;
   border-radius: 50%;
@@ -1161,15 +1183,15 @@ nav .nav-left .fas {
   transition: .2s ease-in-out all;
 }
 
-.section-10 .container-fluid .row .col-md-3 .social-stuff .social-icon:hover.facebook {
+.section-10 .container-fluid .my-row .columnthreedude .social-stuff .social-icon:hover.facebook {
   background-color: #4267B2;
 }
 
-.section-10 .container-fluid .row .col-md-3 .social-stuff .social-icon:hover.twitter {
+.section-10 .container-fluid .my-row .columnthreedude .social-stuff .social-icon:hover.twitter {
   background-color: #1DA1F2;
 }
 
-.section-10 .container-fluid .row .col-md-3 .social-stuff .social-icon:hover.linkedin {
+.section-10 .container-fluid .my-row .columnthreedude .social-stuff .social-icon:hover.linkedin {
   background-color: #2867B2;
 }
 
