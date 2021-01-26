@@ -541,9 +541,12 @@ nav{
 
   .section-7{
 
-    @media(max-width: 800px){
-        margin-top: -2rem !important;
-        background: linear-gradient(rgba(0, 0, 0, 0.281), white);
+    // @media(max-width: 800px){
+    //     margin-top: -2rem !important;
+    // }
+    background: linear-gradient(rgba(0, 0, 0, 0.281), white);
+    svg{
+        fill:white;
     }
 
       .container-fluid{
@@ -593,6 +596,7 @@ nav{
                     width: 90%;
                     overflow: hidden;
                     position: relative;
+                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.212);
 
                     @media(max-width: 1000px){
                         height: 220px;
@@ -740,7 +744,7 @@ nav{
                     h1{
                       background-color: #f79a0ee5;
                       color: black;
-                      font-size: 36px;
+                      font-size: 30px;
                       padding: 0rem 2rem;
                       text-align: center;
                       display: flex;
