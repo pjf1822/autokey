@@ -740,7 +740,8 @@ nav{
                 background-size: cover;
                 min-height: 30vh;
 
-                .outline{
+                .outline{ 
+                    
                     h1{
                       background-color: #f79a0ee5;
                       color: black;
@@ -753,6 +754,8 @@ nav{
                       font-weight: 400;
                       line-height: 1.4;
 
+                      
+                                           
                       @media(min-height:560px){
                       padding: 1rem 1rem;
                       font-size: 40px;
@@ -807,9 +810,9 @@ nav{
                     }
 
                     .slide-track {
-                        animation: scroll 25s linear infinite;
+                        animation: scroll 20s linear infinite;
                         display: flex;
-                        width: calc(250px * 14);
+                        width: calc(250px * 15);
 
                     }
 
@@ -819,6 +822,7 @@ nav{
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        padding-bottom: .3rem;
                     }
                 }
 
@@ -851,7 +855,7 @@ nav{
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	100% { transform: translateX(calc(-250px * 5))}
 }
     
 
